@@ -15,7 +15,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setButtons()
+    }
 
-        nativeDialog.nativeAlertDialog(this@MainActivity)
+    private fun setButtons() {
+        with(binding) {
+            nativeBtn.setOnClickListener {
+                nativeDialog.nativeAlertDialog(this@MainActivity)
+            }
+            customBtn.setOnClickListener {
+
+            }
+            fragmentBtn.setOnClickListener {
+
+            }
+        }
     }
 }

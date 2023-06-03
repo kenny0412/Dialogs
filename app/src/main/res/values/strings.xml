@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">dialogs</string>
+    <string name="ok">OK</string>
+    <string name="title_native_dialog">Native dialog</string>
+    <string name="message_native_dialog">Hi, I\'m a native dialog.</string>
+    <string name="title_custom_dialog">Custom Dialog</string>
+    <string name="title_fragment_dialog">Fragment Dialog</string>
 </resources>
