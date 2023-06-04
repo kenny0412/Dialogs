@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">dialogs</string>
+    <string name="app_name">Dialogs</string>
     <string name="ok">OK</string>
     <string name="title_native_dialog">Native dialog</string>
     <string name="message_native_dialog">Hi, I\'m a native dialog.</string>
