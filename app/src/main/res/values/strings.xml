@@ -5,4 +5,7 @@
     <string name="message_native_dialog">Hi, I\'m a native dialog.</string>
     <string name="title_custom_dialog">Custom Dialog</string>
     <string name="title_fragment_dialog">Fragment Dialog</string>
+    <string name="dialog_title">Custom Dialog</string>
+    <string name="custom_dialog_password">password</string>
+    <string name="custom_dialog_username">Username</string>
 </resources>

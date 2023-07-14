@@ -2,12 +2,16 @@ package com.example.dialogs
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.dialogs.customdialog.CustomDialog
 import com.example.dialogs.databinding.ActivityMainBinding
 import com.example.dialogs.nativedialog.NativeDialog
 
 class MainActivity : AppCompatActivity() {
     private val nativeDialog: NativeDialog by lazy {
         NativeDialog()
+    }
+    private val customDialog: CustomDialog by lazy {
+        CustomDialog()
     }
     private lateinit var binding: ActivityMainBinding
 
@@ -24,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 nativeDialog.nativeAlertDialog(this@MainActivity)
             }
             customBtn.setOnClickListener {
-
+                customDialog.customAlertDialog(this@MainActivity)
             }
             fragmentBtn.setOnClickListener {
 
